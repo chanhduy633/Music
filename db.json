@@ -33,42 +33,42 @@
     "Songs":[
         {
             "id": 1,
-            "name": "What It Is",
-            "artist": "Doechii",
-            "img_url":"./asset/img/whatItIs.jpg",
-            "song_url": "./asset/songs/whatItIs_mp3.mp3",
+            "name": "Mất Kết Nối",
+            "artist": "Dương DOMIC",
+            "img_url":"./asset/img/matketnoi.jpg",
+            "song_url": "./asset/songs/matketnoi.mp3",
             "listens": 8078651  
         },
         {
             "id": 2,
-            "name": "Obsessed",
-            "artist": "Mariah Cary",
-            "img_url":"./asset/img/obsessed.jpg",
-            "song_url": "./asset/songs/Obsessed_mp3.mp3",
+            "name": "Nỗi Đau Đính Kèm",
+            "artist": "Anh Tú Atus & Ryder",
+            "img_url":"./asset/img/noidaudinhkem.jpg",
+            "song_url": "./asset/songs/noidaudinhkem.mp3",
             "listens": 2976653
         },
         {
             "id": 3,
-            "name": "NVMD",
-            "artist": "Denise Julia",
-            "img_url":"./asset/img/NVMD.jpg",
-            "song_url": "./asset/songs/NVMD_mp3.mp3",
+            "name": "Perfect",
+            "artist": "Shiki",
+            "img_url":"./asset/img/shiki.jpg",
+            "song_url": "./asset/songs/perfect.mp3",
             "listens": 8859943  
         },
         {
             "id": 4,
-            "name": "Collide",
-            "artist": "Justine Skye",
-            "img_url":"./asset/img/Collide.jpg",
-            "song_url": "./asset/songs/collide_mp3.mp3",
+            "name": "1000 Ánh Mắt",
+            "artist": "Shiki",
+            "img_url":"./asset/img/shiki.jpg",
+            "song_url": "./asset/songs/1000am.mp3",
             "listens": 9535335  
         },
         {
             "id": 5,
-            "name": "Tip Toe",
-            "artist": "HYBS",
-            "img_url":"./asset/img/tiptoe.jpg",
-            "song_url": "./asset/songs/tiptoe_mp3.mp3",
+            "name": "Có Đôi Điều",
+            "artist": "Shiki",
+            "img_url":"./asset/img/shiki.jpg",
+            "song_url": "./asset/songs/codoidieu.mp3",
             "listens": 9879459  
         },
         {
@@ -105,14 +105,6 @@
         },
         {
             "id": 10,
-            "name": "OMG",
-            "artist": "NewJean",
-            "img_url":"./asset/img/omg.jpg",
-            "song_url": "./asset/songs/omg_mp3.mp3",
-            "listens": 7896524  
-        },
-        {
-            "id": 11,
             "name": "Góc Trời Của Nàng",
             "artist": "Lý Bực",
             "img_url":"./asset/img/goctroicuanang.jpg",

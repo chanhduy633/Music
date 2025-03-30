@@ -122,7 +122,7 @@ function startFetchingArtist() {
     getArtist(renderArist);
 }
 function getArtist(callback) {
-    var path = "https://musicplayer-hob6.onrender.com/Artist"
+    var path = "https://music-0e8b.onrender.com/Artist"
     fetch(path)
         .then(function (response) {
             return response.json();
@@ -164,7 +164,7 @@ function startFetchingSongs() {
 }
 
 function getSongs(callback) {
-    var path = "https://musicplayer-hob6.onrender.com/Songs"
+    var path = "https://music-0e8b.onrender.com/Songs"
     fetch(path)
         .then(function (response) {
             return response.json();
@@ -323,7 +323,7 @@ function startFetchingFavourities() {
     getFavourites(renderFavourites);
 }
 function getFavourites(callback) {
-    var path = "https://musicplayer-hob6.onrender.com/Favourites"
+    var path = "https://music-0e8b.onrender.com/Favourites"
     fetch(path)
         .then(function (response) {
             return response.json();
