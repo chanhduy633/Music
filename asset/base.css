@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Urbane-Medium';
+    src: url('./asset/font/Urbane-Medium.ttf') format('truetype'),
+         url('./asset/font/Urbane-Medium.eot') format('embedded-opentype'),
+         url('./asset/font/Urbane-Medium.woff') format('woff'),
+         url('./asset/font/Urbane-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Urbane-DemiBold';
+    src: url('./asset/font/Urbane-DemiBold.ttf') format('truetype'),
+         url('./asset/font/Urbane-DemiBold.eot') format('embedded-opentype'),
+         url('./asset/font/Urbane-DemiBold.woff') format('woff'),
+         url('./asset/font/Urbane-DemiBold.woff2') format('woff2');
+}
+@font-face {
+    font-family: '1FTV-Nexa-Heavy';
+    src: url('./font/1FTV-Nexa-Heavy.otf') format('opentype');
+
+}
+body{
+    font-family: '1FTV-Nexa-Heavy', Arial, sans-serif; 
+}
+h1, h2, h3 {
+    font-family: '1FTV-Nexa-Heavy', Arial, sans-serif; 
+    opacity: 0.8;
+}
+html{
+    box-sizing: border-box;
+}

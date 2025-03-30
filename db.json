@@ -1,0 +1,151 @@
+{
+    "Artist":
+    [
+        {
+            "id": 1,
+            "name": "Muse",
+            "img_url":"./asset/img/muse.jpg",
+            "followers": 142291,
+            "plays": "191M"
+        },
+        {
+            "id": 2,
+            "name": "Bring me the Horizon",
+            "img_url":"./asset/img/hozizon.jpg",
+            "followers": 56781,
+            "plays": "58M"
+        },
+        {
+            "id": 3,
+            "name": "Ed Sheeran",
+            "img_url":"./asset/img/sheeran.jpg",
+            "followers": 49438,
+            "plays": "998K"
+        },
+        {
+            "id": 4,
+            "name": "Taylor Swift",
+            "img_url":"./asset/img/taylor.jpg",
+            "followers": 125987,
+            "plays": "788K"
+        }
+    ],
+    "Songs":[
+        {
+            "id": 1,
+            "name": "What It Is",
+            "artist": "Doechii",
+            "img_url":"./asset/img/whatItIs.jpg",
+            "song_url": "./asset/songs/whatItIs_mp3.mp3",
+            "listens": 8078651  
+        },
+        {
+            "id": 2,
+            "name": "Obsessed",
+            "artist": "Mariah Cary",
+            "img_url":"./asset/img/obsessed.jpg",
+            "song_url": "./asset/songs/Obsessed_mp3.mp3",
+            "listens": 2976653
+        },
+        {
+            "id": 3,
+            "name": "NVMD",
+            "artist": "Denise Julia",
+            "img_url":"./asset/img/NVMD.jpg",
+            "song_url": "./asset/songs/NVMD_mp3.mp3",
+            "listens": 8859943  
+        },
+        {
+            "id": 4,
+            "name": "Collide",
+            "artist": "Justine Skye",
+            "img_url":"./asset/img/Collide.jpg",
+            "song_url": "./asset/songs/collide_mp3.mp3",
+            "listens": 9535335  
+        },
+        {
+            "id": 5,
+            "name": "Tip Toe",
+            "artist": "HYBS",
+            "img_url":"./asset/img/tiptoe.jpg",
+            "song_url": "./asset/songs/tiptoe_mp3.mp3",
+            "listens": 9879459  
+        },
+        {
+            "id": 6,
+            "name": "Đợi",
+            "artist": "Wean & 52HZ",
+            "img_url":"./asset/img/Doi.jpg",
+            "song_url": "./asset/songs/doi_mp3.mp3",
+            "listens": 5661497  
+        },
+        {
+            "id": 7,
+            "name": "Không Thể Say",
+            "artist": "Hiếu Thứ Hai",
+            "img_url":"./asset/img/KoTheSay.jpg",
+            "song_url": "./asset/songs/KoTheSay_MP3.mp3",
+            "listens": 4578961  
+        },
+        {
+            "id": 8,
+            "name": "Chúng ta của tương lai",
+            "artist": "Sơn Tùng M-TP",
+            "img_url":"./asset/img/CTATL.jpg",
+            "song_url": "./asset/songs/ctaTL_mp3.mp3",
+            "listens": 3157951  
+        },
+        {
+            "id": 9,
+            "name": "Nấu ăn cho em",
+            "artist": "Đen",
+            "img_url":"./asset/img/nauan.jpg",
+            "song_url": "./asset/songs/nauan_mp3.mp3",
+            "listens": 5897861  
+        },
+        {
+            "id": 10,
+            "name": "OMG",
+            "artist": "NewJean",
+            "img_url":"./asset/img/omg.jpg",
+            "song_url": "./asset/songs/omg_mp3.mp3",
+            "listens": 7896524  
+        },
+        {
+            "id": 11,
+            "name": "Góc Trời Của Nàng",
+            "artist": "Lý Bực",
+            "img_url":"./asset/img/goctroicuanang.jpg",
+            "song_url": "./asset/songs/goctroicuanang.mp3",
+            "listens": 8078651  
+        }
+    ],
+
+    "Favourites":[
+        {
+            "id": 1,
+            "name": "Family tourism",
+            "sub": "The more, the meerier, Subtable for children",
+            "img_url":"./asset/img/abtract1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Bright hits",
+            "sub": "The most popular and striking music news",
+            "img_url":"./asset/img/abtract2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Family tourism",
+            "sub": "The most popular and striking music news",
+            "img_url":"./asset/img/abtract3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Bright hits",
+            "sub": "The more, the meerier, Subtable for children",
+            "img_url":"./asset/img/abtract4.jpg"
+        }
+    ]
+    
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player | Trucdeeptry</title>
+    <link rel="stylesheet" href="./asset/base.css">
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./asset/img/sound-wave.png" type="image/x-icon">
+    <script src="https://unpkg.com/wavesurfer.js@7"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div id="menu-container">
+                <div class="menu-wrapper">
+                    <div class="menu_logo">
+                        <img src="./asset/img/disc.png" alt="" class="logo-img">
+                    </div>
+                    <div class="nav">
+                        <div class="menu_nav first-nav">
+                            <img src="./asset/img/homepage.png" alt="" class="content-img active">
+                            <img src="./asset/img/music.png" alt="" class="content-img">
+                            <img src="./asset/img/folder.png" alt="" class="content-img">
+                            <img src="./asset/img/user.png" alt="" class="content-img">
+                        </div>
+                        <div class="menu_nav">
+                            <img src="./asset/img/heart.png" alt="" class="content-img">
+                            <img src="./asset/img/star.png" alt="" class="content-img">
+                            <img src="./asset/img/folder-1.png" alt="" class="content-img">
+                        </div>
+                    </div>
+
+                    <div class="menu_setting">
+                        <img src="./asset/img/setting.png" alt="" class="content-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="content_wrapper">
+
+                <div class="content_box ">
+                    <div class="content_home">
+                        <div class="header">
+                            <h1>Home</h1>
+                            <div class="header_nav">
+                                <div class="header_noti">
+                                    <img src="./asset/img/bell.svg" alt="" class="noti_icon">
+                                    <div class="circle"></div>
+
+                                </div>
+                                <div class="header_search">
+                                    <input type="text" class="search_box" placeholder="Search">
+                                    <img src="./asset/img/search.png" alt="" class="search_icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="head_content">
+                            <div class="banner_slider">
+                                <img src="./asset/img/banner1.png" alt="" class="slider-img">
+                                <img src="./asset/img/banner2.png" alt="" class="slider-img">
+                                <img src="./asset/img/banner3.png" alt="" class="slider-img">
+                                <img src="./asset/img/banner4.png" alt="" class="slider-img">
+                                <img src="./asset/img/banner1.png" alt="" class="slider-img first-img">
+
+                                <div class="silder_nav">
+                                    <div class="circle-nav active-circle"></div>
+                                    <div class="circle-nav"></div>
+                                    <div class="circle-nav"></div>
+                                    <div class="circle-nav"></div>
+                                </div>
+                            </div>
+                            <div class="top-artist">
+                                <div class="artist_header">
+                                    <h2 style="margin: 0;">Top Artist</h2>
+                                    <a href="#" class="see_all">See all</a>
+                                </div>
+                                <div class="music_wrapper">
+                                    <!-- Box data Artist -->
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <div class="body_content">
+                            <div class="trending">
+                                <div class="trending_heading">
+                                    <h2>Trending right now</h2>
+                                    <a href="" class="see_all">See all</a>
+                                </div>
+                                <div class="trending_songs">
+                                    <!-- Box data trending songs -->
+                                </div>
+                            </div>
+                            <div class="favourites">
+                                <h2>Recent favourites</h2>
+                                <div class="favourites_wrapper">
+                                    <!-- data favourites box -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blur_effect"></div>
+                </div>
+                <div class="play_content">
+                    <div class="music_box">
+                        <div class="box_wrapper">
+                            <img src="./asset/img/tiptoe.jpg" alt="" class="music_box-img">
+                            <div class="music_box-info">
+                                <div class="info_heading">
+                                    <div class="heading_name">Tip Toe</div>
+                                    <div class="heading_artist">HYBS</div>
+                                </div>
+                                <div class="switch_progress">
+                                    <label class="switch">
+                                        <input type="checkbox" class="switch_check" onclick="switchProgress()" checked>
+                                        <span class="slider"></span>
+                                    </label>
+                                </div>
+                                <div class="volume_control">
+                                    <div class="volume_wrapper">
+                                        <input type="range" id="volume" class="volume" min="0" max="100" value="50">
+                                        <img src="./asset/img/volume.png" class="volume_img">
+
+                                    </div>
+                                </div>
+                                <div class="info_control">
+                                    <img src="./asset/img/loop.png" alt=""
+                                        class="icon-control control_icon-loop auto-control">
+                                    <div class="control_main">
+                                        <img src="./asset/img/next.png" alt="" class="icon-control main_pre "
+                                            style="transform: rotate(180deg);">
+                                        <div class="play_box">
+                                            <img src="./asset/img/Play.png" alt="" class="icon-control main_play">
+                                        </div>
+                                        <img src="./asset/img/next.png" alt="" class="icon-control main_next">
+                                    </div>
+                                    <img src="./asset/img/mix.png" alt=""
+                                        class="icon-control control_icon-mix auto-control">
+                                </div>
+                                <div class="wave" style="display: flex;">
+                                    <div class="current_duration duration">00:00</div>
+                                    <div id="waveform"></div>
+                                    <div class="end_duration duration">03:50</div>
+                                </div>
+                                <div class="info_progress" style="display: none;">
+                                    <input type="range" id="progress" class="progress" value="0" step="0.5" min="0"
+                                        max="100">
+                                    <div class="time_duration">
+                                        <div class="current_duration duration">00:00</div>
+                                        <div class="end_duration duration" style="text-align: right;">03:50</div>
+
+                                    </div>
+                                </div>
+                                
+                                <audio src="./asset/songs/tiptoe_mp3.mp3" id="audio"></audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./main.js"></script>
+
+</html>
